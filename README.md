@@ -36,7 +36,7 @@ mathus.cantieree@gmail.com,
 enzovalieris12@gmail.com.
 ---
 
-## [Link site](https://pedrolorenzop.github.io/cpfront.github.io/)
+## [Link site](https://pedrolorenzop.github.io/cpfront2/)
 
 ## Licença
 
