@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+.geral{
+    background-color:#4B010F;
+    background-color: #4B010F;
+    background-color: #5F0311;
+    background-color: #720415;
+    color: white;
+}
+
+.pagina00{
+    background-color:#720415
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px ;
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;
+}
+
+.perfil {
+padding-inline-end: 5px;
+}
+
+.cabecalho-menu-item{
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+  }
+  
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .conteudo{
+    margin-bottom: 48px;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-weight: 100;
+    color: white;
+}
+
+/* HEADER */
+
+.cabecalho {
+    background-color:#570514;
+}
+.box {
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    
+    
+    }
+    
+    .Pesquisa {
+        
+    
+        display: flex;
+        width: 50%; 
+        padding: 8px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        outline: none;
+        color: white;
+     }
+
+
+
+/*LOGIN*/
+
+body{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+
+.conteiner-login{
+    color: black;
+}
+
+.conteiner-login {
+    width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.conteiner-login input[type=text], .conteiner-login input[type=password] {
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.conteiner-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a0a0a0; /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.conteiner-login button:hover {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(119, 28, 28); /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.2s;
+
+}
+
+/* PRODUTOS */
+
+.paragrafo {
+    font-weight: bold;
+    
+}
+
+
+
+.produtos {
+    
+    border: 1px solid gray ;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #570514;
+    margin-left: 15vh;
+}
+
+
+.dia
+{ 
+    text-align: center;
+}
+
+
+.texto-produtos{
+    color: #fff;
+   
+}
+
+
+
+/*ABA DE VINHOS*/
+
+.catalog {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.vinhos {
+    border: 1px solid gray ;
+    border-radius: 5px;
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #570514;
+}
+
+.vinhos img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.vinhos h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.vinhos p {
+    font-size: 16px;
+}
+
+/*BOTAP DE ADICIONAR AO CARRINHO*/
+.botao-compra {
+    background-color: #4CAF50;
+    border: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao-compra:hover {
+    background-color: #45a049;
+}
+
+/*SOBRE NOS*/
+.sobre_nos{
+    color: white;
+    padding: 5.2% 15%;
+    display: flex;
+}
+.titulo_quem{
+    text-align: center;
+    text-decoration: none;
+    font-size: 300%;
+}
+.titulo_agnelo{
+    font-size: 200%;
+}
+
+
+/*Assinatura Vinhos*/
+
+.assinatura-vinho{
+    padding: 5px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.planos-vinhos{
+    display: flex;
+    justify-content: space-between;
+}
+.opcoes-vinhos{
+    border: 1px solid gray ;
+    border-radius: 1px;
+    width: 430px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 100px 30px 0px 0px;
+}
+.opcoes-vinhos2{
+    border: 1px solid gray ;
+    border-radius: 5px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 30px 0px 0px;
+}
+.opcoes-vinhos3{
+    border: 1px solid gray ;
+    border-radius: 5px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 30px 0px 0px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+}
+
+/*RODAPE*/
+
+.rodape {
+    margin-top: 50vh;
+    text-align: center;
+    padding: 24px;
+    font-size: 1.25rem;
+    background-color: grey;
+    color: #fff;
+}
