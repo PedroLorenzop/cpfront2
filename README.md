@@ -14,8 +14,8 @@ O site da Vinharia Agnelo é uma plataforma online projetada para fornecer infor
 - `Pagina3.html`: História da vinharia e a experiencia que desejamos promover ao cliente
 - `Pagina4.html`: pagina de cadastro de clientes
 - `Pagina5.html`: pagina de login dos clientes
-- `css/`: Pasta contendo os arquivos de estilo em cascata (CSS).
-- `img/`: Pasta com as imagens utilizadas no site.
+- `style/`: Pasta contendo os arquivos de estilo em cascata (CSS).
+- `imagens/`: Pasta com as imagens utilizadas no site.
 
 ## Como Contribuir
 
