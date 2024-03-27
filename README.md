@@ -30,10 +30,19 @@ Agradecemos antecipadamente por suas contribuições para tornar o site da Vinha
 
 ## Contato
 
-Para mais informações sobre a Vinharia Agnelo, visite os desenvolvedores [GitHub](www.github.com) ou entre em contato conosco através do e-mail emaildogbs@gmail.com, delorenzopedro10@gmail.com, 
+Para mais informações sobre a Vinharia Agnelo, visite os desenvolvedores [GitHub](www.github.com) ou entre em contato conosco através do e-mail 
+emaildogbs@gmail.com, 
+delorenzopedro10@gmail.com, 
 vi230206@gmail.com, 
 mathus.cantieree@gmail.com,
 enzovalieris12@gmail.com.
+
+## Rm dos participantes
+Pedro Lorenzo: 554720
+Enzo Valieres: 555119
+Matheus Cantiere: 558479
+Vinicius Castro: 556137
+Guilherme Barbiero: 555185
 ---
 
 ## [Link site](https://pedrolorenzop.github.io/cpfront2/)
