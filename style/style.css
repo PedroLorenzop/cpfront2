@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +34,7 @@ body{
     display: flex;
     gap: 25px;
     padding-top: 30px;
+    
 }
 
 .perfil {
@@ -43,10 +45,13 @@ padding-inline-end: 5px;
     color: white;
     font-weight: 200;
     text-decoration: none;
+    font-family: "Roboto Slab", serif; 
+    font-weight: 300;                                                                         
+    
   }
   
 .rakkas-regular {
-    font-family: "Rakkas", serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -73,11 +78,14 @@ padding-inline-end: 5px;
     font-weight: 700;
     font-size: 50px;
     color: white;
+    font-family: "Roboto Slab", serif;
 }
 
 .conteudo-principal-escrito-subtitulo{
     font-weight: 100;
     color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
 }
 
 /* HEADER */
