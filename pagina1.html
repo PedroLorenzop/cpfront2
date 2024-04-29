@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planos</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carrinho.css">
+    <script async src="calculadora.js"></script>
 </head>
 
 <body class="geral">
@@ -41,20 +43,23 @@
             <div class="opcoes-vinhos">
                 <img src="./imagens/basico.jpg" width="300px" alt="Básico Vinho">
                 
-                <h3>básico</h3>
+                <h3>básico  (ID: 1)</h3>
                 <p>
                     Oferece uma garrafa de vinho tinto encorpado, altamente recomendado para acompanhar pratos com
                     carne, e outra
                     garrafa de vinho branco fresco, ideal para desfrutar em uma tarde com frutos do mar.
                     <br>
                     Preço assinatura R$35.00
+                    <br>
+                    <button class="botao-compra" data-product="1">Adicionar ao Carrinho</button>
+                    <button class="botao-remover" data-product="1">Remover do Carrinho</button>
                 </p>
             </div>
             <div class="opcoes-vinhos">
                 <img src="./imagens/intermediario - Copia.png" width="300px" alt="Intermediário Vinho">
                 
 
-                <h3>Intermediário</h3>
+                <h3>Intermediário (ID: 2)</h3>
                 <p>
                     Plano Intermediário de Vinho com 3 Garrafas: Oferece uma garrafa de vinho tinto encorpado para
                     carnes vermelhas,
@@ -62,24 +67,37 @@
                     descontraídos e saladas leves.
                     <br>
                     Preço assinatura R$50.00
+                    <br>
+                    <button class="botao-compra" data-product="2">Adicionar ao Carrinho</button>
+                    <button class="botao-remover" data-product="2">Remover do Carrinho</button>
                 </p>
             </div>
 
             <div class="opcoes-vinhos">
                 <img src="./imagens/ultimate.png" width="300px" alt="Premium Vinho">
                 <br>
-                <h3>ultimate-plus</h3>
+                <h3>ultimate-plus  (ID: 3)</h3>
                 <p>
                     Inclui vinho tinto encorpado para carnes vermelhas, branco aromático para frutos do mar, rosé leve
                     para
                     aperitivos, espumante para celebrações e vinho doce para sobremesas.
                     <br>
                     Preço assinatura R$80.00
+                    <br>
+                    <button class="botao-compra" data-product="3">Adicionar ao Carrinho</button>
+                    <button class="botao-remover" data-product="3">Remover do Carrinho</button>
                 </p>
 
             </div>
         </div>
     </section>
+    <br>
+    <div id="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+        </ul>
+        <p id="cart-total">Total: R$0.00</p>
+    </div>
 </body>
 
     <footer class="rodape">

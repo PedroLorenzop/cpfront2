@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Vinhos</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carrinho.css">
+    <script async src="calculadora.js"></script>
 </head>
 <body class="geral">
     
@@ -33,7 +35,8 @@
             <h2>Vinho 1</h2>
             <p>Este vinho rosé apresenta uma tonalidade rosa-pálido e uma explosão de aromas de frutas vermelhas, como morango e framboesa, seguidos por notas florais sutis. Na boca, é leve e delicado, com uma acidez refrescante e um final suave e frutado. Uma escolha versátil que combina bem com saladas, pratos leves e queijos frescos.</p>
             <p>Preço: R$100</p>
-            <button class="botao-compra">Adicionar ao Carrinho</button>
+            <button class="botao-compra" data-product="vinho1">Adicionar ao Carrinho</button>
+            <button class="botao-remover" data-product="vinho1">Remover do Carrinho</button>
         </div>
         
         <div class="vinhos">
@@ -41,7 +44,8 @@
             <h2>Vinho 2</h2>
             <p>Um vinho branco fresco e vibrante, com uma coloração amarelo-palha e aromas cítricos de limão e grapefruit. Na boca, revela-se frutado e refrescante, com uma acidez bem integrada e um final limpo e persistente. Perfeito para servir como aperitivo ou acompanhar frutos do mar.</p>
             <p>Preço: $125</p>
-            <button class="botao-compra">Adicionar ao Carrinho</button>
+            <button class="botao-compra" data-product="vinho2">Adicionar ao Carrinho</button>
+            <button class="botao-remover" data-product="vinho2">Remover do Carrinho</button>
         </div>
         
         <div class="vinhos">
@@ -49,8 +53,15 @@
             <h2>Vinho 3</h2>
             <p>Este vinho tinto possui uma cor rubi intensa e aromas de frutas vermelhas maduras, como cereja e amora. Na boca, é equilibrado, com taninos macios e uma acidez refrescante. Ideal para acompanhar carnes grelhadas ou queijos maturados.</p>
             <p>Preço: $150</p>
-            <button class="botao-compra">Adicionar ao Carrinho</button>
+            <button class="botao-compra" data-product="vinho3">Adicionar ao Carrinho</button>
+            <button class="botao-remover" data-product="vinho3">Remover do Carrinho</button>
         </div>
+    </div>
+    <div id="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+        </ul>
+        <p id="cart-total">Total: R$0.00</p>
     </div>
     </article>
 </main>
