@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carrinho.css">
+    <script async src="calculadora.js"></script>
 
 </head>
 
@@ -58,7 +60,8 @@
                         potencial.
                     </span>
                     <br>
-                    <button class="botao-compra">Adicionar ao carrinho</button>
+                    <button class="botao-compra" data-product="vinho3">Adicionar ao Carrinho</button>
+                    <button class="botao-remover" data-product="vinho3">Remover do Carrinho</button>
 
                     </div>
 
@@ -73,7 +76,8 @@
                     Um dos maiores sucessos entre os vinhos argentinos.
                 </span>
                 <br>
-                <button class="botao-compra">Adicionar ao carrinho</button>
+                <button class="botao-compra" data-product="vinho3">Adicionar ao Carrinho</button>
+            <button class="botao-remover" data-product="vinho3">Remover do Carrinho</button>
             </div>
                 <!--Produto 3-->
 
@@ -86,7 +90,14 @@
                     um blend de vários vinhos jovens, envelhecido em madeira por 3 anos. 
                     É bem frutado e doce, muito agradável. </span>
                     <br>
-                    <button class="botao-compra">Adicionar ao carrinho</button>
+                    <button class="botao-compra" data-product="vinho3">Adicionar ao Carrinho</button>
+                    <button class="botao-remover" data-product="vinho3">Remover do Carrinho</button>
+                </div>
+                <div id="cart">
+                    <h2>Carrinho de Compras</h2>
+                    <ul id="cart-items">
+                    </ul>
+                    <p id="cart-total">Total: R$0.00</p>
                 </div>
         </section>
         

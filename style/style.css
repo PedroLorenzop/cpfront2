@@ -281,6 +281,22 @@ a{
 .botao-compra:hover {
     background-color: #45a049;
 }
+.botao-remover {
+    background-color: #aa2828;
+    border: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao-remover:hover {
+    background-color: #e69225;
+}
 
 /*SOBRE NOS*/
 .sobre_nos{
@@ -361,4 +377,9 @@ a{
     font-size: 1.25rem;
     background-color: grey;
     color: #fff;
+}
+@media (min-width: 768px) {
+    .titulo, .paragrafo {
+        text-align: center;
+    }
 }
