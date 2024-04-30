@@ -1,3 +1,4 @@
+/* Carrosel  */
 const slider = document.querySelector('.carrosel');
 let isDown = false;
 let startX;

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+.geral{
+    background-color:#4B010F;
+    background-color: #4B010F;
+    background-color: #5F0311;
+    background-color: #720415;
+    color: white;
+}
+
+.pagina00{
+    background-color:#720415
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px ;
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;
+    
+}
+
+.perfil {
+padding-inline-end: 5px;
+}
+
+.cabecalho-menu-item{
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; 
+    font-weight: 400;                                                                         
+    
+  }
+  
+
+.cabecalho {
+    background-color:#570514;
+}
+.box {
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    
+    }
+    
+    .Pesquisa {
+        
+    
+        display: flex;
+        width: 50%; 
+        padding: 8px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        outline: none;
+        color: white;
+     }
+
+
+
+.opcao{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+p{
+    color:white;
+    font-family: "Roboto Slab", serif; 
+    font-size: 19px;
+    text-align:left;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+a{
+    color:lightsteelblue ;
+    font-family: "Roboto Slab", serif; 
+    font-size: 19px;
+    text-decoration:solid;
+}
+/*RODAPE*/
+
+.rodape {
+    margin-top: 50vh;
+    text-align: center;
+    padding: 24px;
+    font-size: 1.25rem;
+    background-color: grey;
+    color: #fff;
+    font-family:  "Roboto Slab", serif;
+}
+
+/* Pagina de sugestões */
+
+
+#opcao option {
+    background-color: rgb(255, 214, 213);
+    color: rgb(84, 3, 23);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  #textoEscolhido {
+    margin-top: 20px;
+  }
+  
