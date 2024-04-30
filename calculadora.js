@@ -2,14 +2,13 @@ const addCart = document.getElementsByClassName("botao-compra");
 let productCount = 0;
 let cartValue = 0;
 
-// Map product names to prices
 const productPrices = {
   '1': 35.00,
   '2': 50.00,
   '3': 80.00,
-  'vinho1': 100.00,
-  'vinho2': 125.00,
-  'vinho3': 150.00,
+  'vinho1': 119.00,
+  'vinho2': 208.00,
+  'vinho3': 154.00,
 };
 
 const addCart2 = document.getElementsByClassName("botao-compra");
@@ -30,11 +29,14 @@ function addProduct(event) {
         newItem.textContent = `${productName}: R$${productPrice}`;
         cartItems.appendChild(newItem);
         const cartTotal = document.getElementById('cart-total');
-        cartTotal.textContent = `Total: R$${cartValue}`;
+        cartTotal.textContent = `Total: R$${(cartValue)}`;
     } else {
         alert("O nome do produto inserido é inválido.");
     }
-}
+ }
+    
+    
+       
 const removeFromCartButtons = document.querySelectorAll(".botao-remover");
 removeFromCartButtons.forEach(button => {
   button.addEventListener('click', removeProduct);
@@ -57,5 +59,20 @@ function removeProduct(event) {
         cartTotal.textContent = `Total: R$${cartValue}`;
     } else {
         alert("O nome do produto inserido é inválido ou o valor do produto é maior que o valor total do carrinho.");
+    }
+}
+
+const applyCouponButton = document.getElementById('botao-desconto');
+applyCouponButton.addEventListener('click', applyCoupon);
+
+function applyCoupon() {
+    const coupon = document.getElementById('cupom').value;
+    if (coupon === 'FIAP2024') {
+        cartValue = cartValue * 0.9; // Aplica um desconto de 10%
+        alert(`Cupom aplicado, desconto de 10%! O novo valor total do carrinho é: R$${cartValue.toFixed(2)}`);
+        const cartTotal = document.getElementById('cart-total');
+        cartTotal.textContent = `Total: R$${cartValue.toFixed(2)}`;
+    } else {
+        alert("Cupom inválido.");
     }
 }
