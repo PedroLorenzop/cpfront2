@@ -51,6 +51,7 @@ padding-inline-end: 5px;
   }
   
   .carrosel {
+    background-color: #fff;
 	padding: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 60vw);
@@ -379,8 +380,8 @@ a{
     background-color: grey;
     color: #fff;
 }
-@media (min-width: 768px) {
-    .titulo, .paragrafo {
-        text-align: center;
-    }
-}
+
+
+
+/* Pagina de sugestões */
+
