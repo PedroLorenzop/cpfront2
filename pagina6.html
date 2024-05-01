@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style/formulario.css">
+    <script src="formulario.js"></script>
 </head>
 <body class="geral">
     <header class="cabecalho">
@@ -19,22 +20,37 @@
             <a class="cabecalho-menu-item" href="pagina1.html">Planos</a>
             <a class="cabecalho-menu-item" href="pagina2.html">Vinhos</a>
             <a class="cabecalho-menu-item" href="pagina3.html">Sobre nós</a>
-            <a class="cabecalho-menu-item" href="pagina6.html">Formulário</a>
             <a class="cabecalho-menu-item" href="sugestoes.html">Sugestões</a>
-
             <a class="cabecalho-menu-item" href="pagina4.html"><img src="./imagens/login-trabalho.png" width="40px"></a>
         </nav>
     </header>
     
-    <div class="conteiner-login">
-        <h2>Entre na sua conta</h2>
-        <form>
-            <label for="username">Nome  de usuário: </label><br>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit"><a href="pagina2.html">Acessar</a></button>
-            <button type="submit"><a href="pagina5.html">Crie sua conta</a></button>
-        </form>   
+   <div class="container-formulario">
+
+        <div class="formato">
+            <h2 class="titulo">Envie uma menssagem</h2>
+
+            <form action="" method="get">
+
+                <input type="text" name="name" placeholder="Seu nome">
+                <input type="email" name="Email" placeholder="Seu email" >
+                <input type="text" name="subject" placeholder="Assunto">
+
+                <textarea name="message" placeholder="Sua mensagem"></textarea>
+                
+                <button onclick="enviar()">Enviar</button>
+            </form>
+
+
+        </div>
+
+
+   </div>
+
+   <footer class="rodape">
+    <p>Email para contato: vinharia.agnelo@gmail.com</p>
+    <p>Whatssap: (11) 99999-9999</p>
+    </footer>
+
 </body>
 </html>

@@ -37,6 +37,10 @@ body{
     
 }
 
+.perfil {
+padding-inline-end: 5px;
+}
+
 .cabecalho-menu-item{
     color: white;
     font-weight: 200;
@@ -45,11 +49,9 @@ body{
     padding: 0 .5em .25em;
     cursor: pointer;
     position: relative;
-    transition: .3s;
-                                                                                              
-    
+    transition: .3s;                                                                                         
   }
-  
+
   .cabecalho-menu-item:hover{
     color: rgb(0, 0, 0);
     font-weight: 200;
@@ -61,6 +63,7 @@ body{
     transition: 1.2s; 
   }
  
+/* HEADER */
 
 .cabecalho {
     background-color:#570514;
@@ -70,6 +73,7 @@ body{
     background-color: transparent;
     border: 0;
     color: white;
+    
     
     }
     
@@ -88,31 +92,81 @@ body{
 
 
 
-.opcao{
+/*FORMULARIO*/
+
+.container-formulario{
     display: flex;
     justify-content: center;
-    
-    
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.formato{
+    display: flex;
+    flex-direction: column;
+    background-color:  #570514;
+    border-radius: 8px;
+    width: 700px;
 }
 
 
-p{
-    color:white;
-    font-family: "Roboto Slab", serif; 
-    font-size: 19px;
-    text-align:left;
-    padding: 15px;
-    margin: 20px;
+.formato .titulo{
+   padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid #ccc;
 }
 
-
-
-a{
-    color:lightsteelblue ;
-    font-family: "Roboto Slab", serif; 
-    font-size: 19px;
-    text-decoration:solid;
+.formato form{  
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
 }
+
+.formato input, 
+.formato textarea{
+    width: calc(50% - 16px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #ccc;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.formato input:first-child{
+    margin-right: 16px;
+
+}
+
+.formato input[name=subject]{
+    width: 100%;
+}
+
+.formato textarea{
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+}
+
+.formato button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+.formato button:hover{
+    background-color: #720415;
+    color: #fff;
+}
+
 /*RODAPE*/
 
 .rodape {
@@ -122,21 +176,4 @@ a{
     font-size: 1.25rem;
     background-color: grey;
     color: #fff;
-    font-family:  "Roboto Slab", serif;
 }
-
-/* Pagina de sugestões */
-
-
-#opcao option {
-    background-color: rgb(255, 214, 213);
-    color: rgb(84, 3, 23);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    
-  }
-  
-  #textoEscolhido {
-    margin-top: 20px;
-  }
-  
