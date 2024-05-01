@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -60,7 +61,6 @@ body{
     transform: scale(1.1);  
     transition: 1.2s; 
   }
- 
 
 .cabecalho {
     background-color:#570514;
@@ -135,7 +135,47 @@ body{
     
   }
   
-  #textoEscolhido {
+#textoEscolhido {
     margin-top: 20px;
   }
   
+
+.selecao-vinhos:has(li:hover) li:not(:hover) {
+    filter: blur(4px)
+  }
+
+.selecao {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin: 0 0 2rem;  
+  }
+  
+h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+.selecao-vinhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    margin: 0;
+    transition: all 150ms ease-in-out;
+  }
+  
+li::before {
+    content: "";
+  }
+  
+.imagen-vinho{
+    display: block;
+    min-width: 0;
+    width: 94%; /* Altere este valor para ajustar o tamanho da imagem */
+    margin-bottom: .6rem;
+}
+
