@@ -113,10 +113,10 @@ li {
     background-color:#570514;
 }
 .box {
-    text-align: center;
     background-color: transparent;
     border: 0;
     color: white;
+    width: 1000px;
     
     
     }
@@ -352,6 +352,9 @@ a{
 .paragrafo{
     text-align: center;
 }
+
+
+
 
 /*RODAPE*/
 
