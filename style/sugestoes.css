@@ -37,19 +37,30 @@ body{
     
 }
 
-.perfil {
-padding-inline-end: 5px;
-}
-
 .cabecalho-menu-item{
     color: white;
     font-weight: 200;
-    text-decoration: none;
     font-family: "Roboto Slab", serif; 
-    font-weight: 400;                                                                         
+    font-weight: 400;  
+    padding: 0 .5em .25em;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+                                                                                              
     
   }
   
+  .cabecalho-menu-item:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-family: "Roboto Slab", serif; 
+    font-weight: 400;        
+    overflow: hidden;
+    text-decoration:underline;
+    transform: scale(1.1);  
+    transition: 1.2s; 
+  }
+ 
 
 .cabecalho {
     background-color:#570514;

@@ -37,18 +37,31 @@ body{
     
 }
 
-.perfil {
-padding-inline-end: 5px;
-}
-
 .cabecalho-menu-item{
     color: white;
     font-weight: 200;
-    text-decoration: none;
     font-family: "Roboto Slab", serif; 
-    font-weight: 400;                                                                         
+    font-weight: 400;  
+    padding: 0 .5em .25em;
+    cursor: pointer;
+    position: relative;
+                                                                        
     
   }
+
+  .cabecalho-menu-item:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-family: "Roboto Slab", serif; 
+    font-weight: 400;        
+    overflow: hidden;
+    text-decoration:underline;
+    transform: scale(1.1);  
+    transition: 1.2s; 
+  }
+ 
+
+  
   
   .carrosel {
     background-color: #fff;
@@ -58,7 +71,9 @@ padding-inline-end: 5px;
 	grid-template-rows: 1fr;
 	grid-column-gap: 1rem;
 	grid-row-gap: 1rem;
-	overflow: scroll;
+
+    overflow-x: auto; 
+    overflow-y: hidden;
 	height: 600px;
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
