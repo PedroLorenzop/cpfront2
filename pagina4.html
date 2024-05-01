@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="login.js"></script>
 </head>
 <body class="geral">
     <header class="cabecalho">
-        
         <div class="Pesquisa">
             <label for="search"></label>
             <input class="box" type="search" id="search" name="search" placeholder="Pesquise seus vinhos">
         </div>
-
+        
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="index.html">Menu</a>
             <a class="cabecalho-menu-item" href="pagina1.html">Planos</a>
@@ -22,19 +22,33 @@
             <a class="cabecalho-menu-item" href="pagina6.html">Formulário</a>
             <a class="cabecalho-menu-item" href="sugestoes.html">Sugestões</a>
 
+
             <a class="cabecalho-menu-item" href="pagina4.html"><img src="./imagens/login-trabalho.png" width="40px"></a>
+
+            
+            <a class="perfil" href="pagina4.html"><img src="./imagens/login-trabalho.png" width="40"></a>
+            
+
         </nav>
     </header>
     
     <div class="conteiner-login">
         <h2>Entre na sua conta</h2>
         <form>
-            <label for="username">Nome  de usuário: </label><br>
+            <label for="username">Nome de usuário:</label><br>
             <input type="text" id="username" name="username" required>
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit"><a href="pagina2.html">Acessar</a></button>
-            <button type="submit"><a href="pagina5.html">Crie sua conta</a></button>
-        </form>   
+            <button onclick="entrar()">Acessar</button>
+            <button onclick="criarConta()">Crie sua conta</button>
+        </form>
+    </div>
+
+    <footer class="rodape">
+        <p>Email para contato: vinharia.agnelo@gmail.com</p>
+        <p>Whatssap: (11) 99999-9999</p>
+    </footer>
+
+
 </body>
 </html>

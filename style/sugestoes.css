@@ -66,10 +66,11 @@ body{
     background-color:#570514;
 }
 .box {
-    text-align: center;
     background-color: transparent;
     border: 0;
     color: white;
+    width: 1000px;
+    
     
     }
     
@@ -87,16 +88,14 @@ body{
      }
 
 
-
 .opcao{
+    margin-top: 1%;
     display: flex;
     justify-content: center;
-    
-    
 }
 
 
-p{
+.conteudo_sugestao p{
     color:white;
     font-family: "Roboto Slab", serif; 
     font-size: 19px;
@@ -107,7 +106,7 @@ p{
 
 
 
-a{
+.conteudo_sugestao a{
     color:lightsteelblue ;
     font-family: "Roboto Slab", serif; 
     font-size: 19px;
@@ -115,15 +114,15 @@ a{
 }
 /*RODAPE*/
 
-.rodape {
-    margin-top: 50vh;
+.rodape2 {
+    margin-top: 42%;
     text-align: center;
     padding: 24px;
     font-size: 1.25rem;
-    background-color: grey;
-    color: #fff;
-    font-family:  "Roboto Slab", serif;
+    background-color: rgb(17, 17, 17);
+    color: #f4f4f4;
 }
+
 
 /* Pagina de sugestões */
 

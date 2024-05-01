@@ -44,6 +44,7 @@ padding-inline-end: 5px;
 .cabecalho-menu-item{
     color: white;
     font-weight: 200;
+
     font-family: "Roboto Slab", serif; 
     font-weight: 400;  
     padding: 0 .5em .25em;
@@ -63,16 +64,33 @@ padding-inline-end: 5px;
     transition: 1.2s; 
   }
  
+
+    text-decoration: none;
+    font-family: "Roboto Slab", serif; 
+    font-weight: 300;                                                                         
+    
+  }
+
+
+
+ main
 /* HEADER */
 
 .cabecalho {
     background-color:#570514;
 }
 .box {
+
     text-align: center;
     background-color: transparent;
     border: 0;
     color: white;
+
+    background-color: transparent;
+    border: 0;
+    color: white;
+    width: 1000px;
+
     
     
     }
