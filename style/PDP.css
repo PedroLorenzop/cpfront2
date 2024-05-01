@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.geral {
+    background-color: #4B010F;
+    background-color: #4B010F;
+    background-color: #5F0311;
+    background-color: #720415;
+    color: white;
+}
+
+.pagina00 {
+    background-color: #720415
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;
+
+}
+
+.perfil {
+    padding-inline-end: 5px;
+}
+
+.cabecalho-menu-item {
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+
+}
+
+
+/* HEADER */
+
+.cabecalho {
+    background-color: #570514;
+}
+
+.box {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    width: 1000px;
+
+
+}
+
+.Pesquisa {
+
+
+    display: flex;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: white;
+}
+
+
+
+
+/*BOTÃO DE ADICIONAR AO CARRINHO*/
+.botao-compra {
+    background-color: #4CAF50;
+    border: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-compra:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/*PDP*/
+
+.PDP {
+
+    flex-wrap: wrap;
+    margin: 20px;
+    position: absolute;
+    right: 20vh;
+    top: 25vh;
+    left: 115vh;
+    border: 5px #a0a0a0;
+    border-radius: 5px;
+    padding: 100px;
+    text-align: center;
+    background-color: #570514;
+
+}
+
+.pdph1 {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 200;
+
+
+}
+
+.preco {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.in {
+    color: rgb(2, 2, 2);
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+
+}
+
+.rose {
+    position: absolute;
+    right: 90vh;
+    height: 700px;
+    width: 700px;
+    top: 27vh;
+    border-radius: 7px;
+
+}
+
+.h33 {
+    font-size: 15px;
+    font-weight: 200;
+
+}
+/*POPUP*/
+ 
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    .popup2 {
+    
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: visibility 0s, transform 0.5s ease-out;
+    }
+    
+    .open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    }
+    
+    
+    
+    .popup2 img {
+    
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .popup2 h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    
+    }
+    
+    .popup2 button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #6fd649 ;
+    color: #fff;
+    border: 0; 
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    
+    } 
+
+
+/*RODAPE*/
+
+.rodape {
+    background-color: gray;
+    text-align: center;
+    justify-content: space-around;
+    padding: 24px;
+    position: absolute;
+    font-size: 1.25rem;
+    left: 0;
+    width: 100%;
+    top: 130vh;
+}
+
+
+
