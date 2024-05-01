@@ -101,6 +101,8 @@ body {
 
 .botao-compra:hover {
     background-color: #45a049;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 

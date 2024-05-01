@@ -37,9 +37,19 @@
 .yes-btn {
     background-color: rgb(19, 197, 19);
     color: #fff;
+    
+}
+.yes-btn:hover, .no-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .no-btn {
     background-color: rgb(220, 25, 25);
     color: #fff;
 }
+.no-btn:hover, .no-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
