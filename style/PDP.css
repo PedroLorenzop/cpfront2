@@ -239,7 +239,7 @@ body {
 /*RODAPE*/
 
 .rodape {
-    background-color: gray;
+    background-color: rgb(17, 17, 17);
     text-align: center;
     justify-content: space-around;
     padding: 24px;
