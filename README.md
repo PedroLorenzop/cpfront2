@@ -36,7 +36,7 @@ Agradecemos antecipadamente por suas contribuições para tornar o site da Vinha
 
 ## Melhorias
 
-Adição de carrinho de compras, aba de vinhos personalizadas, aba de cadastro funcional, pop-ups e pagina para comentarios em gerais semelhante a um feedback, ao clicar em cima da imagem (na pagina inicial) do vinho desejado é possivel acessar uma pagina com mais detalhes sobre o vinho escolhido.
+Adição de carrinho de compras, aba de vinhos personalizadas, aba de cadastro funcional, pop-ups, pagina para comentarios em gerais semelhante a um feedback, ao clicar em cima da imagem (na pagina inicial) do vinho desejado é possivel acessar uma pagina com mais detalhes sobre o vinho escolhido.
 
 Adição da função hover no cabeçalho que ao passar o mouse muda a cor do texto, transição na página sugestão, propriedade transform no botões de compra e no pop-up inicial da página.
 
