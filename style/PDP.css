@@ -10,7 +10,22 @@
 body {
     font-size: 100%;
 }
-
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: "Roboto Slab", serif; 
+    font-weight: 400;  
+}
+a{
+    font-family: "Roboto Slab", serif; 
+    font-weight: 400;
+}
 .geral {
     background-color: #4B010F;
     background-color: #4B010F;
